@@ -1,0 +1,318 @@
+
+.row-main>.row>a{											/* ШАПКА */
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	
+}
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 36px;
+}
+.below{
+	background-color: black;
+	text-align: center;
+}
+
+.below>ul>li>a{
+	color: white;
+	text-decoration: none;
+	padding: 15px
+}
+.below>ul>li{
+	display: inline-block;
+    margin-right: 65px;
+    padding: 10px;
+}
+.below>ul>li>a:hover{
+	color: black;
+	background-color: white;
+}
+.imagine-main>.im1{
+	margin-left: 240px;
+}
+.imagine-main>.im2{
+	margin-left: 400px;
+}
+.imagine-main{
+	margin-bottom: 10px;
+}
+
+
+															/* ШАПКА */
+
+
+
+.content>.container>.vst{									/* КОНТЕНТ */
+	margin-top: 90px;
+}
+.Plug>.row{
+	margin-top: 100px;
+}
+.Plug>.row>div>img{
+	
+}
+.content{
+	margin-top: 30px;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container>.row>.info{
+	margin-top: 50px; 
+}
+.Otl{
+	font-size: 50px;
+}
+.drop{
+	font-size: 30px;
+}
+.row>.info{
+	font-size: 30px;
+}
+
+													/* КОНТЕНТ */
+
+
+
+
+.footer>.container-fluid{										/* ФУТЕР */
+	background-color: black;
+	height: 180px;
+}
+#p {
+	margin-top: 30px;
+}
+.footer{
+	margin-top: 100px;
+	color: white;
+	font-size: 18px;
+	font-family: 'Arial MT', sans-serif;
+}
+.inf>.container>.row>div{
+	margin-top: 50px;
+}
+.inf>.container>.row>div>a>img{
+	margin-top: 10px;
+}
+#cock>a{
+	padding: 20px;
+}
+#cock>a>img{
+	width: 50px;
+}
+#cock>a>img[src="../img/f.png"]{
+	width: 26px;
+	margin-bottom: 10px;
+}
+#cock>a>img[src="../img/i.png"]{
+	width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* СЛАЙДЕР */
+
+
+.imagine-main{
+	display: flex;
+	font-family: Arial;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+.slider{
+	width: 500px;
+	height: 300px;
+	margin: 50px auto;
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin-top: 0px;
+	margin-right: 700px;
+}
+.img{
+	text-align: center;
+	line-height: 300px;
+	position: absolute;
+	font-size: 50px;
+	color: #fff;
+	display: none;
+}
+.img.curry{
+	display: block;
+}
+.img:first-child{
+	width: 500px;
+	
+}
+.img:nth-child(2){
+	width: 500px;
+	
+}
+.img:nth-child(3){
+	width: 500px;
+	
+}
+.img:nth-child(4){
+	width: 500px;
+	
+}
+.img:nth-child(5){
+	width: 500px;
+	
+}
+.n {
+	color:#575757;
+}
+.a1 {
+	text-decoration: none;
+	color: #FD7EAD;
+	font-size: 20px;
+}
+.a1:hover{
+	color: #0AB6DD;
+}
+.prev{
+	position: relative;
+	top: 140px;
+	left: 400px;
+}
+.next{
+	position: relative;
+	top: 140px;
+	right: 400px;
+}
+
+
+
+ 					/* ФОРМА ОТПРАВКИ В СЛУЖБУ */
+.drop{
+	margin-top: 40px; 
+	font-family: 'Open Sans', sans-serif;
+}
+.drop>.container>.info_sup{
+	margin-bottom: 40px; 
+}
+label{
+	display: block;
+	font-size: 30px;
+}
+input>.in1{
+	border-radius: 10px;
+	width: 600px;
+}
+textarea{
+	height:213px;
+	width: 600px;
+	border-radius: 10px;
+}
+.in{
+	display: block;
+
+}
+
+
+											/*	ВХОД  */
+
+.in_reg{
+	
+	background-color: white;
+	height: 700px;
+	width: 500px;
+	margin: 100px auto 0 auto;
+	text-align: center;
+	border: 8px solid #2F2F2F;
+	border-radius: 20px;
+}
+.body1{
+	background-color: #41423D;
+}
+.input_div>input{
+	width: 400px;
+	height: 60px;
+	margin-top: 30px;
+	border-radius: 5px;
+	font-size: 30px;
+	border: 2px solid black;
+	font-size: 24px;
+	padding-left: 45px;
+	outline:none;
+}
+input[type="submit"]{
+	margin-top: 30px;
+	background-color: black;
+	color: white;
+	font-size: 26px;
+	padding: 10px;
+	border: 2px outset black;
+	border-radius: 3px;
+	outline:none;
+}
+input[type="submit"]:hover{
+	background-color: #1E1E1E;
+}
+.in_reg>.container-fluid{
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+.in_reg>.container-fluid>a{
+	font-size: 17px;
+	color: black;
+}
+.in_reg>.container-fluid>p{
+	font-size: 17px;
+	color: black;
+}
+.in_reg>h1{
+	margin-top: 50px;
+	font-size: 60px;
+}
+.in_reg>a>img{
+	margin-left: 200px;
+	margin-top: 10px;
+	position: absolute;
+}
+.input_div::before{
+	font-family: "FontAwesome";
+	content: "\f007";
+	position: absolute;
+	margin-left: 13px;
+	margin-top: 36px;
+	font-size: 33px;
+}
+.input_div:nth-child(2)::before{
+	font-family: "FontAwesome";
+	content: "\f023";
+}
+.social>i{
+	padding: 7px;
+	font-size: 40px;
+}
+.social{
+	margin-top: 20px;
+}
+
+
+
+														/* МОЙ ПРОФИЛЬ */
+
+.my_prof {
+	font-size: 20px;
+}
+.my_prof>.row>.col-lg-6{
+	padding: 30px;
+}
+
+
+
